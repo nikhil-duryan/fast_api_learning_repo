@@ -4,4 +4,4 @@ order_router = APIRouter()
 
 @order_router.get('/')
 async def hello():
-    return {"message": "Hello Wold"}
+    return {"message": "Hello from order router"}
